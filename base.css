@@ -92,6 +92,9 @@ div#submenu ul li a{
 	background-repeat: no-repeat;					/*背景画像を繰り返さない*/
 	color: #333333;									/*文字色*/
 }
+div#submenu ul li:first-child a {
+	border-top: 1px dotted gray;					/*一番上のリンクに上線を表示*/
+}
 /*==================================================
 インフォメーション（左カラム）
 ===================================================*/
