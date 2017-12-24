@@ -22,6 +22,17 @@ div#pagebody{
 	background-repeat:repeat-y;				/*背景画像を縦方向に繰り返す*/
 }
 img{border:0;};
+p {
+	width:660px;							/*幅の指定*/
+	margin:10px;							/*マージン*/
+	text-indent:1em;						/*インデント幅*/
+}
+hr{
+	clear: both;							/*フロート配置をクリアする*/
+	width: 680px;							/*幅の指定*/
+	margin: 10px 0px;						/*マージン*/
+	border: 1px dotted #cccccc;				/*内容の区切りをグレーの点線表示にする*/
+}
 /*=================================================
 ヘッダ
 ==================================================*/
@@ -118,7 +129,8 @@ div#submenu ul li a:before{
 ===================================================*/
 div#info {
 	width:660px;							/*幅の指定*/
-	float:left;							/*サブメニューのカラムを左寄せにする*/
+	float:left;								/*サブメニューのカラムを左寄せにする*/
+	padding:10px 20px 0px 0px;				/*パディング*/
 }
 
 h3{
@@ -143,5 +155,9 @@ hr{
 フッター
 ===================================================*/
 div#footer{
-	clear: both;			/*回り込みを解除する*/
+	clear: both;				/*回り込みを解除する*/
+	height: 40px;				/*高さの指定*/
+	padding: 10px 0px 0px 0px;	/*バディング*/
+	font-size: x-small;			/*フォントサイズを小さくする*/
+	text-align: center;			/*センタリング*/
 }	
